@@ -142,6 +142,13 @@ class MainActivity : AppCompatActivity() {
                 findViewById<TextView>(R.id.temp).text = suhu+"°C"
                 findViewById<TextView>(R.id.humidity).text = humidity
                 findViewById<TextView>(R.id.status).text = textCuaca
+                if(textCuaca == "Hujan"){
+                    findViewById<ImageView>(R.id.weather_image).setImageResource(R.drawable.day_rain)
+                }else if (textCuaca == "Berawan" || textCuaca == "Mendung"){
+                    findViewById<ImageView>(R.id.weather_image).setImageResource(R.drawable.day_partial_cloud)
+                }else{
+                    findViewById<ImageView>(R.id.weather_image).setImageResource(R.drawable.day_clear)
+                }
             }
 
             override fun onCancelled(error: DatabaseError) {
