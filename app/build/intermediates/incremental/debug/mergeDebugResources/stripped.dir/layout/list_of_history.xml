@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="14dp">
+
+    <ImageView
+        android:id="@+id/gambarCuaca"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/day_clear"
+        android:paddingRight="18dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dataHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textSize="18sp"
+            android:fontFamily="@font/inter_semibold" />
+
+        <TextView
+            android:id="@+id/waktuHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:fontFamily="@font/inter_extralight"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tempHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:fontFamily="@font/inter_semibold"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/cahayaHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:fontFamily="@font/inter_semibold"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/basahHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:fontFamily="@font/inter_semibold"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

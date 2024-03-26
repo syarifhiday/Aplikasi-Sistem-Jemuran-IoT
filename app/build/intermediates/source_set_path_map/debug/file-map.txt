@@ -1,0 +1,43 @@
+com.example.sistemjemuran.app-navigation-ui-ktx-2.4.1-0 /home/spid333r/.gradle/caches/transforms-3/08064dbb20a99efee058790c68db674f/transformed/navigation-ui-ktx-2.4.1/res
+com.example.sistemjemuran.app-jetified-window-1.0.0-1 /home/spid333r/.gradle/caches/transforms-3/0a9d280fb720398ef1b18a4d75cb1cdc/transformed/jetified-window-1.0.0/res
+com.example.sistemjemuran.app-recyclerview-1.1.0-2 /home/spid333r/.gradle/caches/transforms-3/0b67cf377ae799d1e697a714bb2524a8/transformed/recyclerview-1.1.0/res
+com.example.sistemjemuran.app-navigation-runtime-ktx-2.4.1-3 /home/spid333r/.gradle/caches/transforms-3/0bdf1300d0eb6b013ccd1364e25b0598/transformed/navigation-runtime-ktx-2.4.1/res
+com.example.sistemjemuran.app-coordinatorlayout-1.1.0-4 /home/spid333r/.gradle/caches/transforms-3/11f2955156daecc493f815a077217d5e/transformed/coordinatorlayout-1.1.0/res
+com.example.sistemjemuran.app-jetified-fragment-ktx-1.4.1-5 /home/spid333r/.gradle/caches/transforms-3/16024fdde960aaf9210033b5c84a6882/transformed/jetified-fragment-ktx-1.4.1/res
+com.example.sistemjemuran.app-drawerlayout-1.1.1-6 /home/spid333r/.gradle/caches/transforms-3/19a8a7ea04521f74ab8c02d74e06404f/transformed/drawerlayout-1.1.1/res
+com.example.sistemjemuran.app-core-1.5.0-7 /home/spid333r/.gradle/caches/transforms-3/4ef0c52007ddcfb2c09c07e5a0ecc257/transformed/core-1.5.0/res
+com.example.sistemjemuran.app-navigation-common-2.4.1-8 /home/spid333r/.gradle/caches/transforms-3/53d5f1d618045786e3682b2ac0e63747/transformed/navigation-common-2.4.1/res
+com.example.sistemjemuran.app-jetified-play-services-base-18.0.1-9 /home/spid333r/.gradle/caches/transforms-3/617e4462888a4285d6d948c8ba44da4a/transformed/jetified-play-services-base-18.0.1/res
+com.example.sistemjemuran.app-jetified-firebase-messaging-23.1.1-10 /home/spid333r/.gradle/caches/transforms-3/67b146dc70da2f32b7e9242901e2ece4/transformed/jetified-firebase-messaging-23.1.1/res
+com.example.sistemjemuran.app-navigation-common-ktx-2.4.1-11 /home/spid333r/.gradle/caches/transforms-3/6836328a89931bd636b0db0642ed5269/transformed/navigation-common-ktx-2.4.1/res
+com.example.sistemjemuran.app-media-1.0.0-12 /home/spid333r/.gradle/caches/transforms-3/6ef53ec64f830ff8a899f1fb3d151302/transformed/media-1.0.0/res
+com.example.sistemjemuran.app-navigation-fragment-2.4.1-13 /home/spid333r/.gradle/caches/transforms-3/716ec9cef6d6824cddf489a4020e5097/transformed/navigation-fragment-2.4.1/res
+com.example.sistemjemuran.app-navigation-runtime-2.4.1-14 /home/spid333r/.gradle/caches/transforms-3/72dc621f95d01188f84bf77d38ffb9cc/transformed/navigation-runtime-2.4.1/res
+com.example.sistemjemuran.app-jetified-appcompat-resources-1.2.0-15 /home/spid333r/.gradle/caches/transforms-3/76fea15e9c242bede7e475f6c67b47c0/transformed/jetified-appcompat-resources-1.2.0/res
+com.example.sistemjemuran.app-material-1.4.0-16 /home/spid333r/.gradle/caches/transforms-3/7b5b6f95e9c68d22ecce2ba26f55dd50/transformed/material-1.4.0/res
+com.example.sistemjemuran.app-fragment-1.4.1-17 /home/spid333r/.gradle/caches/transforms-3/85cdaf2194ad077e71af8205bc80f66b/transformed/fragment-1.4.1/res
+com.example.sistemjemuran.app-jetified-annotation-experimental-1.1.0-18 /home/spid333r/.gradle/caches/transforms-3/8e9c301111904c31f3452973e56c9d73/transformed/jetified-annotation-experimental-1.1.0/res
+com.example.sistemjemuran.app-appcompat-1.2.0-19 /home/spid333r/.gradle/caches/transforms-3/93b4f91778e62493a4398d71388a4b1c/transformed/appcompat-1.2.0/res
+com.example.sistemjemuran.app-navigation-fragment-ktx-2.4.1-20 /home/spid333r/.gradle/caches/transforms-3/a368d349fd61af8884844817be97a9f2/transformed/navigation-fragment-ktx-2.4.1/res
+com.example.sistemjemuran.app-jetified-savedstate-1.1.0-21 /home/spid333r/.gradle/caches/transforms-3/acfb65bb19c68311064ed75fa16c43c0/transformed/jetified-savedstate-1.1.0/res
+com.example.sistemjemuran.app-jetified-jackson-android-networking-1.0.2-22 /home/spid333r/.gradle/caches/transforms-3/b610abf1294e8cf2b6872c2fcc2d45e1/transformed/jetified-jackson-android-networking-1.0.2/res
+com.example.sistemjemuran.app-jetified-viewpager2-1.0.0-23 /home/spid333r/.gradle/caches/transforms-3/b7b9ae04ec81d0ec00bd2a5d6970c33c/transformed/jetified-viewpager2-1.0.0/res
+com.example.sistemjemuran.app-slidingpanelayout-1.2.0-24 /home/spid333r/.gradle/caches/transforms-3/c9c4f032f72b0ecbd14344606594fa4c/transformed/slidingpanelayout-1.2.0/res
+com.example.sistemjemuran.app-navigation-ui-2.4.1-25 /home/spid333r/.gradle/caches/transforms-3/d671ff0cfd9708ceb762517db7e4dd95/transformed/navigation-ui-2.4.1/res
+com.example.sistemjemuran.app-jetified-android-networking-1.0.2-26 /home/spid333r/.gradle/caches/transforms-3/df6a8c3e34fb5d2de06360f866b4fe8b/transformed/jetified-android-networking-1.0.2/res
+com.example.sistemjemuran.app-cardview-1.0.0-27 /home/spid333r/.gradle/caches/transforms-3/e039c9c7778577a3dad29c31f41c4d0a/transformed/cardview-1.0.0/res
+com.example.sistemjemuran.app-lifecycle-viewmodel-2.3.1-28 /home/spid333r/.gradle/caches/transforms-3/ec5d3208ecf5f8534a0fd53832ca0417/transformed/lifecycle-viewmodel-2.3.1/res
+com.example.sistemjemuran.app-jetified-firebase-common-20.2.0-29 /home/spid333r/.gradle/caches/transforms-3/ee5687cf53faa213ee93754c89318387/transformed/jetified-firebase-common-20.2.0/res
+com.example.sistemjemuran.app-transition-1.4.1-30 /home/spid333r/.gradle/caches/transforms-3/f4cba64340bcfd37a1f5b562c56e339a/transformed/transition-1.4.1/res
+com.example.sistemjemuran.app-lifecycle-runtime-2.3.1-31 /home/spid333r/.gradle/caches/transforms-3/fbc4ed4f58b037ec2c9d2aefe81cbc4e/transformed/lifecycle-runtime-2.3.1/res
+com.example.sistemjemuran.app-constraintlayout-2.0.2-32 /home/spid333r/.gradle/caches/transforms-3/fbd9612b2e67b18474eb8ca493b0d4d7/transformed/constraintlayout-2.0.2/res
+com.example.sistemjemuran.app-jetified-play-services-basement-18.1.0-33 /home/spid333r/.gradle/caches/transforms-3/fccdbddcf01c6b70765a9f810fe76c78/transformed/jetified-play-services-basement-18.1.0/res
+com.example.sistemjemuran.app-google-services-34 /home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/build/generated/res/google-services/debug
+com.example.sistemjemuran.app-pngs-35 /home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/build/generated/res/pngs/debug
+com.example.sistemjemuran.app-resValues-36 /home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/build/generated/res/resValues/debug
+com.example.sistemjemuran.app-rs-37 /home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/build/generated/res/rs/debug
+com.example.sistemjemuran.app-mergeDebugResources-38 /home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.example.sistemjemuran.app-mergeDebugResources-39 /home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.example.sistemjemuran.app-merged_res-40 /home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/build/intermediates/merged_res/debug
+com.example.sistemjemuran.app-debug-41 /home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/debug/res
+com.example.sistemjemuran.app-main-42 /home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/res

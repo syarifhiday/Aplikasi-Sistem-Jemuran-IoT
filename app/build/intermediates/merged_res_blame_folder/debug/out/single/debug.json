@@ -1,0 +1,258 @@
+[
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_rounded_right.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/rounded_right.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_wind.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/wind.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable-v24_exposure.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable-v24/exposure.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable-v24_temperature.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable-v24/temperature.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable-v24_history.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable-v24/history.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_sunrise.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/sunrise.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable-v24_history_black.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable-v24/history_black.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_info.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/info.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable-v24_arrow.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable-v24/arrow.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_rounded_grey_stroke.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/rounded_grey_stroke.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_rounded.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/rounded.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_ic_baseline_settings_24.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/ic_baseline_settings_24.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_green_circle.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/green_circle.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_tutupatap.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/tutupatap.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/layout_activity_main.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/font_inter_semibold.ttf.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/font/inter_semibold.ttf"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/layout_fragment_first.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/layout/fragment_first.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_rounded_white.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/rounded_white.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable-v24_day_mode.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable-v24/day_mode.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_rounded_stroke_left.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/rounded_stroke_left.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_night_half_moon_rain.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/night_half_moon_rain.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/font_inter_extralight.ttf.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/font/inter_extralight.ttf"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/layout_activity_history.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_day_rain.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/day_rain.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable-v24_humidity.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable-v24/humidity.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_day_clear.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/day_clear.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_rounded_white_full.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/rounded_white_full.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/layout_notification.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/layout/notification.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/layout_activity_settings.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/navigation_nav_graph.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable-v24_arrow_black.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable-v24/arrow_black.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_rounded_stroke_right.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/rounded_stroke_right.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/layout_fragment_second.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/layout/fragment_second.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_sunset.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/sunset.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable-v24_save.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable-v24/save.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_night_half_moon_partial_cloud.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/night_half_moon_partial_cloud.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/layout_list_of_history.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/layout/list_of_history.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_delete.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/delete.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_rounded_grey.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/rounded_grey.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_rounded_left.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/rounded_left.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_day_partial_cloud.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/day_partial_cloud.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable-v24_hot.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable-v24/hot.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_red_circle.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/red_circle.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_weather.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/weather.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_gradient_bg_night.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/gradient_bg_night.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_bukaatap.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/bukaatap.png"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_ic_baseline_history_24.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/ic_baseline_history_24.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_gradient_bg.xml.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/gradient_bg.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.sistemjemuran.app-pngs-35:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/font_inter_regular.ttf.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/font/inter_regular.ttf"
+    },
+    {
+        "merged": "com.example.sistemjemuran.app-merged_res-40:/drawable_night_half_moon_clear.png.flat",
+        "source": "com.example.sistemjemuran.app-main-42:/drawable/night_half_moon_clear.png"
+    }
+]
