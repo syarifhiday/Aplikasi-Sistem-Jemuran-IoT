@@ -1,0 +1,342 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.sistemjemuran"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-firestore:24.4.1] /home/spid333r/.gradle/caches/transforms-3/84c1467ad17ba263769b2703278f06e7/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:12:5-79
+15-->[com.google.firebase:firebase-firestore:24.4.1] /home/spid333r/.gradle/caches/transforms-3/84c1467ad17ba263769b2703278f06e7/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:12:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.firebase:firebase-messaging:23.1.1] /home/spid333r/.gradle/caches/transforms-3/67b146dc70da2f32b7e9242901e2ece4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:26:5-68
+16-->[com.google.firebase:firebase-messaging:23.1.1] /home/spid333r/.gradle/caches/transforms-3/67b146dc70da2f32b7e9242901e2ece4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:26:22-65
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-messaging:23.1.1] /home/spid333r/.gradle/caches/transforms-3/67b146dc70da2f32b7e9242901e2ece4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:28:5-82
+17-->[com.google.firebase:firebase-messaging:23.1.1] /home/spid333r/.gradle/caches/transforms-3/67b146dc70da2f32b7e9242901e2ece4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:28:22-79
+18    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+18-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/spid333r/.gradle/caches/transforms-3/9e576393fccd3e5f9c65f286cfcce456/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+18-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/spid333r/.gradle/caches/transforms-3/9e576393fccd3e5f9c65f286cfcce456/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+19-->[com.google.android.gms:play-services-measurement:21.2.0] /home/spid333r/.gradle/caches/transforms-3/6becfeb980f3e9e3a45a075f810ca534/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:21.2.0] /home/spid333r/.gradle/caches/transforms-3/6becfeb980f3e9e3a45a075f810ca534/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+20
+21    <application
+21-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:10:5-68:19
+22        android:allowBackup="true"
+22-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:11:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.5.0] /home/spid333r/.gradle/caches/transforms-3/4ef0c52007ddcfb2c09c07e5a0ecc257/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:icon="@drawable/day_rain"
+26-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:12:9-42
+27        android:label="Sistem Jemuran"
+27-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:13:9-39
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:14:9-54
+29        android:supportsRtl="true"
+29-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:15:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:16:9-40
+32        <activity
+32-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:17:9-24:20
+33            android:name="com.example.sistemjemuran.SettingsActivity"
+33-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:18:13-45
+34            android:exported="false"
+34-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:19:13-37
+35            android:theme="@style/CustomTheme" >
+35-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:20:13-47
+36            <meta-data
+36-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:21:13-23:36
+37                android:name="android.app.lib_name"
+37-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:22:17-52
+38                android:value="" />
+38-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:23:17-33
+39        </activity>
+40        <activity
+40-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:25:9-33:20
+41            android:name="com.example.sistemjemuran.HistoryActivity"
+41-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:26:13-44
+42            android:exported="false"
+42-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:27:13-37
+43            android:screenOrientation="portrait"
+43-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:28:13-49
+44            android:theme="@style/CustomTheme" >
+44-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:29:13-47
+45            <meta-data
+45-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:21:13-23:36
+46                android:name="android.app.lib_name"
+46-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:22:17-52
+47                android:value="" />
+47-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:23:17-33
+48        </activity>
+49        <activity
+49-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:34:9-44:20
+50            android:name="com.example.sistemjemuran.MainActivity"
+50-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:35:13-41
+51            android:exported="true"
+51-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:36:13-36
+52            android:screenOrientation="portrait"
+52-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:37:13-49
+53            android:theme="@style/CustomTheme" >
+53-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:38:13-47
+54            <intent-filter>
+54-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:39:13-43:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:40:17-69
+55-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:40:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:42:17-77
+57-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:42:27-74
+58            </intent-filter>
+59        </activity>
+60        <!--
+61    Set custom default icon. This is used when no icon is set for incoming notification messages.
+62    See README(https://goo.gl/l4GJaQ) for more.
+63        -->
+64        <meta-data
+64-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:49:9-51:53
+65            android:name="com.google.firebase.messaging.default_notification_icon"
+65-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:50:13-83
+66            android:resource="@drawable/day_rain" />
+66-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:51:13-50
+67        <!--
+68 Set color used with incoming notification messages. This is used when no color is set for the incoming
+69             notification message. See README(https://goo.gl/6BKBk7) for more.
+70        -->
+71        <meta-data
+71-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:56:9-58:54
+72            android:name="com.google.firebase.messaging.default_notification_color"
+72-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:57:13-84
+73            android:resource="@color/colorPrimary" />
+73-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:58:13-51
+74
+75        <service
+75-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:60:9-67:19
+76            android:name="com.example.sistemjemuran.MyFirebaseMessagingService"
+76-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:61:13-55
+77            android:exported="false" >
+77-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:62:13-37
+78            <intent-filter>
+78-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:64:13-66:29
+79                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+79-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:65:17-78
+79-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:65:25-75
+80            </intent-filter>
+81        </service>
+82        <service
+82-->[com.google.firebase:firebase-messaging-ktx:23.1.1] /home/spid333r/.gradle/caches/transforms-3/c5c597b9fd9b041da79836dbc2397953/transformed/jetified-firebase-messaging-ktx-23.1.1/AndroidManifest.xml:25:9-31:19
+83            android:name="com.google.firebase.components.ComponentDiscoveryService"
+83-->[com.google.firebase:firebase-messaging-ktx:23.1.1] /home/spid333r/.gradle/caches/transforms-3/c5c597b9fd9b041da79836dbc2397953/transformed/jetified-firebase-messaging-ktx-23.1.1/AndroidManifest.xml:26:13-84
+84            android:directBootAware="true"
+84-->[com.google.firebase:firebase-common:20.2.0] /home/spid333r/.gradle/caches/transforms-3/ee5687cf53faa213ee93754c89318387/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+85            android:exported="false" >
+85-->[com.google.firebase:firebase-messaging-ktx:23.1.1] /home/spid333r/.gradle/caches/transforms-3/c5c597b9fd9b041da79836dbc2397953/transformed/jetified-firebase-messaging-ktx-23.1.1/AndroidManifest.xml:27:13-37
+86            <meta-data
+86-->[com.google.firebase:firebase-messaging-ktx:23.1.1] /home/spid333r/.gradle/caches/transforms-3/c5c597b9fd9b041da79836dbc2397953/transformed/jetified-firebase-messaging-ktx-23.1.1/AndroidManifest.xml:28:13-30:85
+87                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+87-->[com.google.firebase:firebase-messaging-ktx:23.1.1] /home/spid333r/.gradle/caches/transforms-3/c5c597b9fd9b041da79836dbc2397953/transformed/jetified-firebase-messaging-ktx-23.1.1/AndroidManifest.xml:29:17-126
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-messaging-ktx:23.1.1] /home/spid333r/.gradle/caches/transforms-3/c5c597b9fd9b041da79836dbc2397953/transformed/jetified-firebase-messaging-ktx-23.1.1/AndroidManifest.xml:30:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-database-ktx:20.1.0] /home/spid333r/.gradle/caches/transforms-3/1aa7e400c5eb6ddab01c4965cf1d7931/transformed/jetified-firebase-database-ktx-20.1.0/AndroidManifest.xml:14:13-16:85
+90                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+90-->[com.google.firebase:firebase-database-ktx:20.1.0] /home/spid333r/.gradle/caches/transforms-3/1aa7e400c5eb6ddab01c4965cf1d7931/transformed/jetified-firebase-database-ktx-20.1.0/AndroidManifest.xml:15:17-124
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-database-ktx:20.1.0] /home/spid333r/.gradle/caches/transforms-3/1aa7e400c5eb6ddab01c4965cf1d7931/transformed/jetified-firebase-database-ktx-20.1.0/AndroidManifest.xml:16:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-common-ktx:20.2.0] /home/spid333r/.gradle/caches/transforms-3/be0f3b6abfd38a268da754b43da13d36/transformed/jetified-firebase-common-ktx-20.2.0/AndroidManifest.xml:14:13-16:85
+93                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+93-->[com.google.firebase:firebase-common-ktx:20.2.0] /home/spid333r/.gradle/caches/transforms-3/be0f3b6abfd38a268da754b43da13d36/transformed/jetified-firebase-common-ktx-20.2.0/AndroidManifest.xml:15:17-113
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-common-ktx:20.2.0] /home/spid333r/.gradle/caches/transforms-3/be0f3b6abfd38a268da754b43da13d36/transformed/jetified-firebase-common-ktx-20.2.0/AndroidManifest.xml:16:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-firestore:24.4.1] /home/spid333r/.gradle/caches/transforms-3/84c1467ad17ba263769b2703278f06e7/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:19:13-21:85
+96                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+96-->[com.google.firebase:firebase-firestore:24.4.1] /home/spid333r/.gradle/caches/transforms-3/84c1467ad17ba263769b2703278f06e7/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:20:17-111
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-firestore:24.4.1] /home/spid333r/.gradle/caches/transforms-3/84c1467ad17ba263769b2703278f06e7/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:21:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-messaging:23.1.1] /home/spid333r/.gradle/caches/transforms-3/67b146dc70da2f32b7e9242901e2ece4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:55:13-57:85
+99                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+99-->[com.google.firebase:firebase-messaging:23.1.1] /home/spid333r/.gradle/caches/transforms-3/67b146dc70da2f32b7e9242901e2ece4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:56:17-119
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-messaging:23.1.1] /home/spid333r/.gradle/caches/transforms-3/67b146dc70da2f32b7e9242901e2ece4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:57:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-database:20.1.0] /home/spid333r/.gradle/caches/transforms-3/a1f8277be455f4af920b7a2162c7a8e3/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
+102                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+102-->[com.google.firebase:firebase-database:20.1.0] /home/spid333r/.gradle/caches/transforms-3/a1f8277be455f4af920b7a2162c7a8e3/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:32:17-109
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-database:20.1.0] /home/spid333r/.gradle/caches/transforms-3/a1f8277be455f4af920b7a2162c7a8e3/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-datatransport:18.1.7] /home/spid333r/.gradle/caches/transforms-3/bba2c805bb32fc98705e57b65ffb2c59/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+105                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+105-->[com.google.firebase:firebase-datatransport:18.1.7] /home/spid333r/.gradle/caches/transforms-3/bba2c805bb32fc98705e57b65ffb2c59/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-datatransport:18.1.7] /home/spid333r/.gradle/caches/transforms-3/bba2c805bb32fc98705e57b65ffb2c59/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+107            <meta-data
+107-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/spid333r/.gradle/caches/transforms-3/9e576393fccd3e5f9c65f286cfcce456/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+108                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+108-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/spid333r/.gradle/caches/transforms-3/9e576393fccd3e5f9c65f286cfcce456/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/spid333r/.gradle/caches/transforms-3/9e576393fccd3e5f9c65f286cfcce456/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-installations:17.1.0] /home/spid333r/.gradle/caches/transforms-3/096c4070ccaa573bac42c8a8d5409fb0/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+111                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+111-->[com.google.firebase:firebase-installations:17.1.0] /home/spid333r/.gradle/caches/transforms-3/096c4070ccaa573bac42c8a8d5409fb0/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-installations:17.1.0] /home/spid333r/.gradle/caches/transforms-3/096c4070ccaa573bac42c8a8d5409fb0/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+113        </service>
+114
+115        <uses-library
+115-->[androidx.window:window:1.0.0] /home/spid333r/.gradle/caches/transforms-3/0a9d280fb720398ef1b18a4d75cb1cdc/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+116            android:name="androidx.window.extensions"
+116-->[androidx.window:window:1.0.0] /home/spid333r/.gradle/caches/transforms-3/0a9d280fb720398ef1b18a4d75cb1cdc/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+117            android:required="false" />
+117-->[androidx.window:window:1.0.0] /home/spid333r/.gradle/caches/transforms-3/0a9d280fb720398ef1b18a4d75cb1cdc/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+118        <uses-library
+118-->[androidx.window:window:1.0.0] /home/spid333r/.gradle/caches/transforms-3/0a9d280fb720398ef1b18a4d75cb1cdc/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+119            android:name="androidx.window.sidecar"
+119-->[androidx.window:window:1.0.0] /home/spid333r/.gradle/caches/transforms-3/0a9d280fb720398ef1b18a4d75cb1cdc/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+120            android:required="false" />
+120-->[androidx.window:window:1.0.0] /home/spid333r/.gradle/caches/transforms-3/0a9d280fb720398ef1b18a4d75cb1cdc/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+121
+122        <receiver
+122-->[com.google.firebase:firebase-messaging:23.1.1] /home/spid333r/.gradle/caches/transforms-3/67b146dc70da2f32b7e9242901e2ece4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:31:9-38:20
+123            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+123-->[com.google.firebase:firebase-messaging:23.1.1] /home/spid333r/.gradle/caches/transforms-3/67b146dc70da2f32b7e9242901e2ece4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:32:13-78
+124            android:exported="true"
+124-->[com.google.firebase:firebase-messaging:23.1.1] /home/spid333r/.gradle/caches/transforms-3/67b146dc70da2f32b7e9242901e2ece4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:33:13-36
+125            android:permission="com.google.android.c2dm.permission.SEND" >
+125-->[com.google.firebase:firebase-messaging:23.1.1] /home/spid333r/.gradle/caches/transforms-3/67b146dc70da2f32b7e9242901e2ece4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:34:13-73
+126            <intent-filter>
+126-->[com.google.firebase:firebase-messaging:23.1.1] /home/spid333r/.gradle/caches/transforms-3/67b146dc70da2f32b7e9242901e2ece4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:35:13-37:29
+127                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+127-->[com.google.firebase:firebase-messaging:23.1.1] /home/spid333r/.gradle/caches/transforms-3/67b146dc70da2f32b7e9242901e2ece4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:36:17-81
+127-->[com.google.firebase:firebase-messaging:23.1.1] /home/spid333r/.gradle/caches/transforms-3/67b146dc70da2f32b7e9242901e2ece4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:36:25-78
+128            </intent-filter>
+129        </receiver>
+130        <!--
+131             FirebaseMessagingService performs security checks at runtime,
+132             but set to not exported to explicitly avoid allowing another app to call it.
+133        -->
+134        <service
+134-->[com.google.firebase:firebase-messaging:23.1.1] /home/spid333r/.gradle/caches/transforms-3/67b146dc70da2f32b7e9242901e2ece4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:44:9-51:19
+135            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+135-->[com.google.firebase:firebase-messaging:23.1.1] /home/spid333r/.gradle/caches/transforms-3/67b146dc70da2f32b7e9242901e2ece4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:45:13-82
+136            android:directBootAware="true"
+136-->[com.google.firebase:firebase-messaging:23.1.1] /home/spid333r/.gradle/caches/transforms-3/67b146dc70da2f32b7e9242901e2ece4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:46:13-43
+137            android:exported="false" >
+137-->[com.google.firebase:firebase-messaging:23.1.1] /home/spid333r/.gradle/caches/transforms-3/67b146dc70da2f32b7e9242901e2ece4/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:47:13-37
+138            <intent-filter android:priority="-500" >
+138-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:64:13-66:29
+139                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+139-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:65:17-78
+139-->/home/spid333r/Documents/UTY/TA/WeatherApp-master Apps Final/app/src/main/AndroidManifest.xml:65:25-75
+140            </intent-filter>
+141        </service>
+142
+143        <provider
+143-->[com.google.firebase:firebase-common:20.2.0] /home/spid333r/.gradle/caches/transforms-3/ee5687cf53faa213ee93754c89318387/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+144            android:name="com.google.firebase.provider.FirebaseInitProvider"
+144-->[com.google.firebase:firebase-common:20.2.0] /home/spid333r/.gradle/caches/transforms-3/ee5687cf53faa213ee93754c89318387/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+145            android:authorities="com.example.sistemjemuran.firebaseinitprovider"
+145-->[com.google.firebase:firebase-common:20.2.0] /home/spid333r/.gradle/caches/transforms-3/ee5687cf53faa213ee93754c89318387/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+146            android:directBootAware="true"
+146-->[com.google.firebase:firebase-common:20.2.0] /home/spid333r/.gradle/caches/transforms-3/ee5687cf53faa213ee93754c89318387/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+147            android:exported="false"
+147-->[com.google.firebase:firebase-common:20.2.0] /home/spid333r/.gradle/caches/transforms-3/ee5687cf53faa213ee93754c89318387/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+148            android:initOrder="100" />
+148-->[com.google.firebase:firebase-common:20.2.0] /home/spid333r/.gradle/caches/transforms-3/ee5687cf53faa213ee93754c89318387/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+149
+150        <activity
+150-->[com.google.android.gms:play-services-base:18.0.1] /home/spid333r/.gradle/caches/transforms-3/617e4462888a4285d6d948c8ba44da4a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+151            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+151-->[com.google.android.gms:play-services-base:18.0.1] /home/spid333r/.gradle/caches/transforms-3/617e4462888a4285d6d948c8ba44da4a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+152            android:exported="false"
+152-->[com.google.android.gms:play-services-base:18.0.1] /home/spid333r/.gradle/caches/transforms-3/617e4462888a4285d6d948c8ba44da4a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+153            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+153-->[com.google.android.gms:play-services-base:18.0.1] /home/spid333r/.gradle/caches/transforms-3/617e4462888a4285d6d948c8ba44da4a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+154
+155        <receiver
+155-->[com.google.android.gms:play-services-measurement:21.2.0] /home/spid333r/.gradle/caches/transforms-3/6becfeb980f3e9e3a45a075f810ca534/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+156            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+156-->[com.google.android.gms:play-services-measurement:21.2.0] /home/spid333r/.gradle/caches/transforms-3/6becfeb980f3e9e3a45a075f810ca534/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+157            android:enabled="true"
+157-->[com.google.android.gms:play-services-measurement:21.2.0] /home/spid333r/.gradle/caches/transforms-3/6becfeb980f3e9e3a45a075f810ca534/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+158            android:exported="false" >
+158-->[com.google.android.gms:play-services-measurement:21.2.0] /home/spid333r/.gradle/caches/transforms-3/6becfeb980f3e9e3a45a075f810ca534/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+159        </receiver>
+160
+161        <service
+161-->[com.google.android.gms:play-services-measurement:21.2.0] /home/spid333r/.gradle/caches/transforms-3/6becfeb980f3e9e3a45a075f810ca534/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+162            android:name="com.google.android.gms.measurement.AppMeasurementService"
+162-->[com.google.android.gms:play-services-measurement:21.2.0] /home/spid333r/.gradle/caches/transforms-3/6becfeb980f3e9e3a45a075f810ca534/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+163            android:enabled="true"
+163-->[com.google.android.gms:play-services-measurement:21.2.0] /home/spid333r/.gradle/caches/transforms-3/6becfeb980f3e9e3a45a075f810ca534/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+164            android:exported="false" />
+164-->[com.google.android.gms:play-services-measurement:21.2.0] /home/spid333r/.gradle/caches/transforms-3/6becfeb980f3e9e3a45a075f810ca534/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+165        <service
+165-->[com.google.android.gms:play-services-measurement:21.2.0] /home/spid333r/.gradle/caches/transforms-3/6becfeb980f3e9e3a45a075f810ca534/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+166            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+166-->[com.google.android.gms:play-services-measurement:21.2.0] /home/spid333r/.gradle/caches/transforms-3/6becfeb980f3e9e3a45a075f810ca534/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+167            android:enabled="true"
+167-->[com.google.android.gms:play-services-measurement:21.2.0] /home/spid333r/.gradle/caches/transforms-3/6becfeb980f3e9e3a45a075f810ca534/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+168            android:exported="false"
+168-->[com.google.android.gms:play-services-measurement:21.2.0] /home/spid333r/.gradle/caches/transforms-3/6becfeb980f3e9e3a45a075f810ca534/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+169            android:permission="android.permission.BIND_JOB_SERVICE" />
+169-->[com.google.android.gms:play-services-measurement:21.2.0] /home/spid333r/.gradle/caches/transforms-3/6becfeb980f3e9e3a45a075f810ca534/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+170
+171        <meta-data
+171-->[com.google.android.gms:play-services-basement:18.1.0] /home/spid333r/.gradle/caches/transforms-3/fccdbddcf01c6b70765a9f810fe76c78/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+172            android:name="com.google.android.gms.version"
+172-->[com.google.android.gms:play-services-basement:18.1.0] /home/spid333r/.gradle/caches/transforms-3/fccdbddcf01c6b70765a9f810fe76c78/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+173            android:value="@integer/google_play_services_version" />
+173-->[com.google.android.gms:play-services-basement:18.1.0] /home/spid333r/.gradle/caches/transforms-3/fccdbddcf01c6b70765a9f810fe76c78/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+174
+175        <service
+175-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/spid333r/.gradle/caches/transforms-3/6bc813a6d2eef619859d8918d671b862/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+176            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+176-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/spid333r/.gradle/caches/transforms-3/6bc813a6d2eef619859d8918d671b862/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+177            android:exported="false" >
+177-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/spid333r/.gradle/caches/transforms-3/6bc813a6d2eef619859d8918d671b862/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+178            <meta-data
+178-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/spid333r/.gradle/caches/transforms-3/6bc813a6d2eef619859d8918d671b862/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+179                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+179-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/spid333r/.gradle/caches/transforms-3/6bc813a6d2eef619859d8918d671b862/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+180                android:value="cct" />
+180-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/spid333r/.gradle/caches/transforms-3/6bc813a6d2eef619859d8918d671b862/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+181        </service>
+182        <service
+182-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/spid333r/.gradle/caches/transforms-3/c5f08f987c355e8923556e6df33dee17/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+183            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+183-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/spid333r/.gradle/caches/transforms-3/c5f08f987c355e8923556e6df33dee17/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+184            android:exported="false"
+184-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/spid333r/.gradle/caches/transforms-3/c5f08f987c355e8923556e6df33dee17/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+185            android:permission="android.permission.BIND_JOB_SERVICE" >
+185-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/spid333r/.gradle/caches/transforms-3/c5f08f987c355e8923556e6df33dee17/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+186        </service>
+187
+188        <receiver
+188-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/spid333r/.gradle/caches/transforms-3/c5f08f987c355e8923556e6df33dee17/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+189            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+189-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/spid333r/.gradle/caches/transforms-3/c5f08f987c355e8923556e6df33dee17/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+190            android:exported="false" />
+190-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/spid333r/.gradle/caches/transforms-3/c5f08f987c355e8923556e6df33dee17/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+191    </application>
+192
+193</manifest>
